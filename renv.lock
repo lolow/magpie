@@ -3,6 +3,22 @@
     "Version": "3.6.2",
     "Repositories": [
       {
+        "Name": "BioCsoft",
+        "URL": "https://bioconductor.org/packages/3.10/bioc"
+      },
+      {
+        "Name": "BioCann",
+        "URL": "https://bioconductor.org/packages/3.10/data/annotation"
+      },
+      {
+        "Name": "BioCexp",
+        "URL": "https://bioconductor.org/packages/3.10/data/experiment"
+      },
+      {
+        "Name": "BioCworkflows",
+        "URL": "https://bioconductor.org/packages/3.10/workflows"
+      },
+      {
         "Name": "CRAN",
         "URL": "https://cloud.r-project.org"
       },
@@ -12,6 +28,9 @@
       }
     ]
   },
+  "Bioconductor": {
+    "Version": "3.10"
+  },
   "Packages": {
     "BH": {
       "Package": "BH",
@@ -19,6 +38,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "8f9ce74c6417d61f0782cbae5fd2b7b0"
+    },
+    "BiocManager": {
+      "Package": "BiocManager",
+      "Version": "1.30.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "db75371846625725e221470b310da1d5"
     },
     "DBI": {
       "Package": "DBI",
@@ -142,14 +168,8 @@
     "Rhdf5lib": {
       "Package": "Rhdf5lib",
       "Version": "1.8.0",
-      "Source": "bioc_xgit",
-      "RemoteType": "bioc_xgit",
-      "RemoteMirror": "https://git.bioconductor.org/packages",
-      "RemoteRepo": "Rhdf5lib",
-      "RemoteRelease": "release",
-      "RemoteSha": "16d91c4cedfd7b0618662ee16badc1d24459c8b4",
-      "RemoteBranch": "RELEASE_3_10",
-      "Hash": "f2001944b2bc349a2b2ee185f987984e"
+      "Source": "Bioconductor",
+      "Hash": "4a3bef5117511bfc1a0b23fddd7585ef"
     },
     "SPEI": {
       "Package": "SPEI",
@@ -1111,14 +1131,8 @@
     "rhdf5": {
       "Package": "rhdf5",
       "Version": "2.30.1",
-      "Source": "bioc_xgit",
-      "RemoteType": "bioc_xgit",
-      "RemoteMirror": "https://git.bioconductor.org/packages",
-      "RemoteRepo": "rhdf5",
-      "RemoteRelease": "release",
-      "RemoteSha": "137dc19d3f7e080b5913c8838f19f09f719631e0",
-      "RemoteBranch": "RELEASE_3_10",
-      "Hash": "4d74de7212b16afbc16014a530964e95"
+      "Source": "Bioconductor",
+      "Hash": "413d578e76ee631eaf479d9b98841bf8"
     },
     "rlang": {
       "Package": "rlang",
