@@ -1,3 +1,4 @@
+source("renv/activate.R")
 # source global .Rprofile (very important to load user specific settings)
 # DO NOT EDIT THIS LINE!
 if(file.exists("~/.Rprofile")) source("~/.Rprofile")

@@ -33,3 +33,5 @@ magpie_calib.*
 *.out
 /scripts/npi_ndc/npi_ndc_overview.txt
 Rplots.pdf
+.Rproj.user
+*.Rproj
